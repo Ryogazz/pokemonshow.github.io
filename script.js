@@ -75,7 +75,7 @@ const botaoCorreto = async () => {
   botao.addEventListener('click', () =>{
     botao.classList.add('botao-correto');
     pokeImg.src = resultado.sprites.front_default;
-    setTimeout(() => alert('PARABÉNS!!!!!!!!!!'),1000)
+    setTimeout(() => alert('PARABÉgitNS!!!!!!!!!!'),1000)
     setTimeout(() => location.reload(),4000)
   })
 }
